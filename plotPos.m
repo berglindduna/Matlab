@@ -1,5 +1,5 @@
 % 30.08.2014
-% The program plots up the position of an object thrown at an angle a, with the inital speed v = 49 m/s^2.
+% The program plots up the position of an object thrown at an angle a, with the inital speed v = 51 m/s^2.
 % For angles:
 %	a = 10°
 %	a = 20°
@@ -10,7 +10,7 @@
 clear all
 clc
 
-v = 49;
+v = 51;
 x = 0:0.1:10;
 % Free-fall acceleration
 g = 9.8;
