@@ -1,4 +1,4 @@
-% 30.06.2014
+% 30.08.2014
 % Input: 3 resistances 
 % Output: Prints the total resistances of the three resistances on screen
 %
