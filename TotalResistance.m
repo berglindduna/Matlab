@@ -1,6 +1,6 @@
 % 30.06.2014
 % Input: 3 resistances 
-% Output: The total resistances of the three resistances
+% Output: Prints the total resistances of the three resistances on screen
 %
 clear all
 clc
