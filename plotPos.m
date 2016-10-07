@@ -1,11 +1,11 @@
 % 30.08.2014
-% The program plots up the position of an object thrown at an angle ?, with the inital speed v = 49 m/s^2.
+% The program plots up the position of an object thrown at an angle a, with the inital speed v = 49 m/s^2.
 % For angles:
-%	? = 10°
-%	? = 20°
-%	? = 45°
-%	? = 70°
-%	? = 80°
+%	a = 10Â°
+%	a = 20Â°
+%	a = 45Â°
+%	a = 70Â°
+%	a = 80Â°
  
 clear all
 clc
@@ -15,25 +15,25 @@ x = 0:0.1:10;
 % Free-fall acceleration
 g = 9.8;
 
-h = 10;
-y = tan(h)*x - (g / (2*V*cos(h).^2)*x.^2);
+a = 10;
+y = tan(a)*x - (g / (2*V*cos(a).^2)*x.^2);
 hold on
 plot(x, y,'g')
 
-h = 20;
-y = tan(h)*x - (g / (2*V*cos(h).^2)*x.^2)
+a = 20;
+y = tan(a)*x - (g / (2*V*cos(a).^2)*x.^2)
 plot(x, y,'b')
 
-h = 45;
-y = tan(h)*x - (g / (2*V*cos(h).^2)*x.^2);
+a = 45;
+y = tan(a)*x - (g / (2*V*cos(a).^2)*x.^2);
 plot(x, y,'k')
 
-h = 70;
-y = tan(h)*x - (g / (2*V*cos(h).^2)*x.^2);
+a = 70;
+y = tan(a)*x - (g / (2*V*cos(a).^2)*x.^2);
 plot(x, y,'r')
 
-h = 80;
-y = tan(h)*x - (g / (2*V*cos(h).^2)*x.^2);
+a = 80;
+y = tan(a)*x - (g / (2*V*cos(a).^2)*x.^2);
 plot(x, y,'y')
 
 axis([0 max(x) 0 max(y)])
