@@ -1,4 +1,4 @@
-% 04.10.14
+% 04.10.2014
 % plots f = e^x from 0 to 2
 % plots the Taylor series expansion for f on the same graph with different degrees.
 
