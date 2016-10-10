@@ -1,4 +1,4 @@
-%06.09.2014
+% 06.09.2014
 
 % This program calculates the area of a triangle, rectangle or circle
 % Input:
