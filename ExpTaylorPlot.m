@@ -1,4 +1,4 @@
-%04.10.14
+% 04.10.14
 % plots f = e^x from 0 to 2
 % plots the Taylor series expansion for f on the same graph with different degrees.
 
@@ -23,10 +23,9 @@ end
 title('Taylor series expansion for exp(x)')
 legend('exp(x)','Degree = 1000','Degree = 5','Degree = 6','Degree = 7','Degree = 8','Degree = 9','Degree = 10')
 
+
 function [ y ] = Taylor(X, D)
 % calculates the D degree taylor series in the point X
-
 n= 0 : D;
 y = sum(X.^n ./ factorial(n));
-
 end
