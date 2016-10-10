@@ -1,4 +1,6 @@
-%22.10.2014
+% 22.10.2014
+% Draws up the norwegian flag using a 18x25 matrix
+
 clear all; clc;
 
 flag = ones(18,25); 
