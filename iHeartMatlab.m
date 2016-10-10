@@ -1,4 +1,5 @@
-%22.10.2014
+% 22.10.2014
+% This program creates a image that says I (heart) matlab
 clear all; clc;
 
 t = -10:0.1:10;
