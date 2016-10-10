@@ -1,4 +1,4 @@
-% 04.10.14
+% 04.10.2014
 % Input: A string with a name.
 % Output: Hello with year, date and time.
 
