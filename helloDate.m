@@ -1,12 +1,13 @@
-%04.10.14
+% 04.10.14
 % Input: A string with a name.
-% Output: Hello with tha date and time.
+% Output: Hello with year, date and time.
 
 clear all; clc;
 
-name = input("Write your name: ", 's');
+name = input('Write your name: ', 's');
 hour = datestr(now,'HH');
 hour = str2num(hour);
+
 if (hour >= 6) && (hour < 12)
     hello = 'Good morning ';
 elseif hour >= 18
